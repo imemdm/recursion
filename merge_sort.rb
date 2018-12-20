@@ -11,7 +11,7 @@ def merge_sort(arr)
 
   arr.length.times do |i|
     if right[i2].nil? || 
-      (!left[i1].nil? && (left[i1] <=> right[i2])== -1)
+      (!left[i1].nil? && (left[i1] <=> right[i2]) == -1)
       arr[i] = left[i1]
       i1 += 1
     else
